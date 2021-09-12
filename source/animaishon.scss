@@ -1,0 +1,47 @@
+@keyframes top {
+    0%{
+        position: relative;
+        bottom: 100px;
+    }
+    100%{
+    position: relative;
+    bottom: 0px;
+    }
+
+}
+@keyframes miniblock {
+    0%{
+    }
+    100%{
+        border: 0.5px solid rgb(204, 204, 204);
+        background: rgb(255, 255, 255);
+        margin: 0px 20px;
+        width: 400px;
+    }
+}
+@keyframes buton {
+    0%{
+        background: none;
+    }
+    100%{
+        background: rgba(255, 255, 255, 0.726);
+    }
+}
+@keyframes buton2 {
+    0%{
+        background: rgb(223, 223, 223);
+    }
+    100%{
+        background: rgba(255, 255, 255, 0.726);
+    }
+}
+@keyframes menu {
+    0%{
+
+    }
+    100%{
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+    }
+    
+}
